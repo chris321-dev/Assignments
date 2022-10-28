@@ -1,0 +1,28 @@
+
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(0, 102, 128), rgba(61, 143, 236, 0.5), rgba(13, 173, 194, 0.5));
+}
+
+
+
+#survey-form {
+    font-size: 20px;
+    color: rgb(183, 219, 236);
+    
+}
+
+#title {
+    margin-left: 90px;
+    font-size: 40px;
+    color: rgba(4, 33, 65, 0.5);
+}
+
+#submit {
+    background-color: rgba(9, 108, 221, 0.5);
+    font-size: 20px;
+}
+
+.submit_1{
+  color: green;
+}
