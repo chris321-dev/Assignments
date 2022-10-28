@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Tech Survey Form</title>
+</head>
+
+<body>
+  <div>
+    <div>
+      <header>
+        <h1 id="title">Registration Page</h1>
+      </header>
+      <div id="survey">
+        <form id="survey-form">
+          <label for="fname" id="fname-label">
+            First Name </label><br><input id="fname" type="text" placeholder="Enter your frist name" required>
+          <br><br>
+          <label for="lname" id="lname-label">
+            Last Name</label><br><input id="lname" type="text" placeholder="Enter your last name" required>
+          <br><br>
+          <label for="phone">Phone Number</label><br>
+          <input type="tel" id="phone" name="phone" placeholder="012-345-6789" required><br><br>
+          <label for="email" id="email-label">
+            Email</label><br><input id="email" type="text" placeholder="Enter your Email" required>
+          <br><br>
+          <label for="gender" required>
+            Gender</label><br>
+          <input id="gender" type="radio" name="sex" value="Male">Male<br>
+          <input id="gender" type="radio" name="sex" value="Female">Female<br>
+          <br><br>
+          <label for="birthday" id="birthday">Birthday</label><br>
+          <input type="date" id="birthday" name="birthday" required>
+          <br><br>
+          <label for="choice" required>
+
+            Favourite Color</label><br>
+          <input id="choice" type="radio" name="color" value="red">Red<br>
+          <input id="choice" type="radio" name="color" value="yellow">Yellow<br>
+          <input id="choice" type="radio" name="color" value="orange">Orange<br>
+          <input id="choice" type="radio" name="color" value="none">None<br>
+          <br><br>
+
+          <button id="submit" type="Submit" value="submit" form="survey-form">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
